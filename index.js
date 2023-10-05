@@ -43,7 +43,7 @@ sub.addEventListener("click", (event) => {
         .catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
-            console.log(errorCode);
+            alert(errorCode);
             console.log(errorMessage);
             // ..
         });
